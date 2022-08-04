@@ -1,0 +1,150 @@
+body {
+    background: white;
+}
+
+.cabecalho, .navegar{
+    width: 100%;
+
+}
+
+.cabecalho{
+    background: red;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;   
+    z-index: 1;
+}
+
+.principal{
+    margin: 0 auto;
+}
+
+.icone, h1{
+    vertical-align: middle;
+}
+
+.icone{
+    width: 60px;
+    margin: 10px 10px 0 10px;
+}
+
+h1{
+    display: inline;
+    margin-left: 30px;
+    vertical-align: text-top;
+    font-size: 32px;
+}
+
+.navegar{
+    background-color: white;
+    top: 10px;
+    margin-top: 10px;
+    height: 60px;
+    float: left;
+}
+
+.classe{
+    vertical-align: text-top;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.botao{
+    border: none;
+    background-color: white;
+    margin: 1px 0 0 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.classe:hover{
+    border-bottom: 2px solid red;
+}
+
+.listaClasse{
+    list-style: none;    
+}
+
+.classe li{
+    margin: 15px 15px 20px 15px;
+    float: left;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.corpo{
+    width: 80%;
+    margin: 160px auto;
+    display: grid;
+    place-items:  center;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+}
+
+
+.receita{
+    width: fit-content;
+    background-color: #FFFFFF;
+    border: 0 solid transparent;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+
+.receita:hover{
+    transition: 0.2s;
+    transform: scale(0.98);
+}
+
+.imagem-receita {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width:450px;
+    padding-bottom: 10px;
+}
+
+.titulo-receita, .categoria, .favoritoVazio{
+    margin: 0 0 0 10px;
+
+}
+
+#favorito {
+    margin: 0 0 0 10px;
+}
+
+.titulo-receita{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.categoria{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.favoritar {
+    background: rgb(245, 236, 236);
+    color: #f50c0c;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.favoritar:hover{
+    background: #f50c0c;
+}
+
+
+.favoritar:focus{
+    background: #f50c0c;
+    color: rgb(245, 236, 236);
+    font-weight: bold;
+}
+
+
+
+
+
