@@ -4,7 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Receitas culinárias</title>
   </head>
-  <body></body>
+  <body>
+    <header class="cabecalho">
+      
+      <div class="principal">
+        <img class="icone" src="icone.png" alt=" Logo">
+        <h1 class="titulo-header">Minhas Receitas</h1>
+
+        <div class="navegar">
+          <ul>
+            <li class="classe"><button class="botao" onclick="filtrar('todas')">Todas</button></li>
+            <li class="classe"><button class="botao" onclick="filtrar('bolos')">Bolos</button></li>
+            <li class="classe"><button class="botao" onclick="filtrar('carnes')">Carnes</button></li>
+            <li class="classe"><button class="botao" onclick="filtrar('bebidas')">Bebidas</button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="corpo">
+
+      <div class="receita">
+        <img class="imagem-receita" src="boloChocolate.png" alt="Bolo de Chocolate">
+        <h2 class="titulo-receita">Bolo de Chocolate</h2>
+        <p class="categoria">Bolos</p>
+        <button class="favoritar">♡</button>
+      </div>
+      
+      <div class="receita">
+        <img class="imagem-receita" src="boloFuba.png" alt="Bolo de Fuba">
+        <h2 class="titulo-receita">Bolo de Fuba</h2>
+        <p class="categoria">Bolos</p>
+        <button class="favoritar">♡</button>
+      </div>
+
+      <div class="receita">
+        <img class="imagem-receita" src="parmegianaCarne.png" alt="Parmegiana de Carne">
+        <h2 class="titulo-receita">Parmegiana de Carne</h2>
+        <p class="categoria">Carnes</p>
+        <button class="favoritar">♡</button>
+      </div>
+
+      <div class="receita">
+        <img class="imagem-receita" src="costela.jpg" alt="Costela com Molho Barbecue">
+        <h2 class="titulo-receita">Costela</h2>
+        <p class="categoria">Carnes</p>
+        <button class="favoritar">♡</button>
+      </div>
+
+      <div class="receita">
+        <img class="imagem-receita" src="chocolateQuente.jpeg" alt="Chocolate Quente">
+        <h2 class="titulo-receita">Chocolate Quente</h2>
+        <p class="categoria">Bebidas</p>
+        <button class="favoritar">♡</button>
+      </div>
+
+      <div class="receita">
+        <img class="imagem-receita" src="milkShake.jpeg" alt="Milk Shake de Morango">
+        <h2 class="titulo-receita">Milk Shake de Morango</h2>
+        <p class="categoria">Bebidas</p>
+        <button class="favoritar">♡</button>
+      </div>
+
+      <div class="receita">
+        <img class="imagem-receita" src="cappucino.jpg" alt="Cappucino">
+        <h2 class="titulo-receita">Cappucino</h2>
+        <p class="categoria">Bebidas</p>
+        <button class="favoritar">♡</button>
+      </div>
+    </div>
+
+    <script src="arquivo.js"></script>
+  </body>
 </html>
